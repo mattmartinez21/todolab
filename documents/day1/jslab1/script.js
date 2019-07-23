@@ -19,15 +19,20 @@ if (detroitGC === true) {
   );
 }
 
-for (let i = 0;; i++) {
-    console.log(lifeEvents + i);
-    if (i < 4)
-    break;
+for (let i = 0; ; i++) {
+  console.log(lifeEvents + i);
+  if (i < 4) break;
 }
 
-var x = Math.floor((Math.random() * 9) + 1); {
-    console.log( x)
+var randomNumber = Math.floor(Math.random() * 9 + 1);
+{
+  console.log(randomNumber);
 }
 
-let counter = 0; 
+let counter = 0;
+while (true) {
+    if (randomNumber!==5) {
+        
 
+    }
+}
