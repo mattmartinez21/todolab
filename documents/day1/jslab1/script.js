@@ -31,8 +31,15 @@ var randomNumber = Math.floor(Math.random() * 9 + 1);
 
 let counter = 0;
 while (true) {
-    if (randomNumber!==5) {
-        
-
-    }
+  if (randomNumber !== 5) {
+    console.log(randomNumber !== 5);
+    var randomNumber = Math.floor(Math.random() * 9 + 1);
+    counter++;
+  } else {
+    counter++;
+    console.log(
+      5 === 5`It took ${counter} iterations to randomly generate the number 5.`
+    );
+    break;
+  }
 }
