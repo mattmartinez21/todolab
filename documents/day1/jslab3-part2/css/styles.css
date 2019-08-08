@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+  width: 100;
+  margin: 0;
+}
+
+body {
+  background-image: url(../assets/sitepic.jpg);
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 30%;
+  background: : rgb(179,178,176, 0.6);
+   
+}
+
+h1 {
+  align-items: center;
+}
+
+input {
+
+  background: white;
+}
