@@ -1,0 +1,17 @@
+div {
+  display: block;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+}
+
+button {
+  align-items: center;
+  width: 85%;
+  border-radius: 10px;
+  color: #505355;
+}

@@ -1,0 +1,21 @@
+<main>
+    <h1>My Thoughts</h1>
+    <section>
+        <span (click)="toggleForm()">New Thought</span>
+        <div class="posts">
+            <post *ngFor="let post of posts; index as i" [post]="post"[index]=i (deleted)= "deletePost($event)"></post>
+        </div>
+    </section>
+</main>
+
+<post-form
+*nglf="show"
+(submitted)="onSubmit($event)"
+></post-form>
+
+<!-- <post
+  *ngFor="let post of posts; index as i"
+  [index]="i"
+  [individualPost]="post"
+  (delete)="deletePost($event)"
+></post> -->

@@ -1,0 +1,18 @@
+<div class="formBox">
+  <h2>Use the form below to update your profile.</h2>
+
+  <form
+    #profileForm="ngForm"
+    class="profileForm"
+    (ngSubmit)="setUserProfile(profileForm)"
+  >
+    <label for="name">Name</label>
+    <input ngModel type="text" name="name" id="name" />
+    <label for="contact">Contact</label>
+    <input ngModel type="text" name="contactInfo" id="contact" />
+    <label for="bio">Bio</label>
+    <input ngModel type="text" name="bio" id="bio" />
+
+    <button>Update</button>
+  </form>
+</div>

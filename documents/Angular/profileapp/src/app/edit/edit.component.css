@@ -1,0 +1,41 @@
+.formBox {
+  display: block;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+  border-radius: 15px;
+  width: 400px;
+  height: 400px;
+}
+
+h2 {
+  width: 85%;
+  color: #505355;
+}
+
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  color: #1ecefd;
+  font-weight: bold;
+  width: 85%;
+  justify-content: left;
+}
+
+input {
+  width: 85%;
+  padding: 14px;
+  border-radius: 20px;
+}
+
+button {
+  align-items: center;
+  width: 85%;
+  border-radius: 10px;
+  color: #505355;
+}
